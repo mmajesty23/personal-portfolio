@@ -1,0 +1,14 @@
+{
+  "name": "personal-portfolio",
+  "version": "1.0.0",
+  "description": "Personal Portfolio",
+  "scripts": {
+    "startTailwind": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Majesty",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.12"
+  }
+}
