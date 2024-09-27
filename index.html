@@ -25,7 +25,7 @@
               id="hamburger"
               name="hamburger"
               type="button"
-              class="block absolute right-4"
+              class="block absolute right-4 lg:hidden"
             >
               <span
                 class="hamburger-line hamburger-transition origin-top-left"
@@ -38,37 +38,21 @@
 
             <nav
               id="nav-menu"
-              class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-3 top-full"
+              class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-3 top-full desktop-nav-menu"
             >
-              <ul class="block">
+              <ul class="block lg:flex">
                 <li class="group">
-                  <a
-                    href="#home"
-                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
-                    >Home</a
-                  >
+                  <a href="#home" class="nav-menu-link">Home</a>
                 </li>
                 <li class="group">
-                  <a
-                    href="#about"
-                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
-                    >About me</a
-                  >
+                  <a href="#about" class="nav-menu-link">About me</a>
                 </li>
                 <li class="group">
-                  <a
-                    href="#portfolio"
-                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
-                    >Portfolio</a
-                  >
+                  <a href="#portfolio" class="nav-menu-link">Portfolio</a>
                 </li>
 
                 <li class="group">
-                  <a
-                    href="#contact"
-                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
-                    >Get in Touch</a
-                  >
+                  <a href="#contact" class="nav-menu-link">Get in Touch</a>
                 </li>
               </ul>
             </nav>
@@ -105,13 +89,13 @@
           </div>
           <div class="w-full self-end px-4 lg:w-1/2">
             <div class="relative mt-10 lg:mt-0 lg:right-0">
-              <img
+              <!-- <img
                 width="400"
                 height="400"
                 src="./dist/img/majesty.png"
                 alt="Author-Photo"
                 class="max-w-full mx-auto"
-              />
+              /> -->
               <span
                 class="absolute bottom-0 -z-10 left-1/2 -translate-x-1/2 md:scale-125"
               >
