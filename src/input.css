@@ -6,6 +6,11 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+/* General */
+.btn-effect {
+  @apply font-semibold text-base text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out;
+}
+
 /* Mobile Navigation Start */
 .hamburger-line {
   @apply w-[30px] h-[2px] my-2 block bg-dark;
@@ -46,4 +51,13 @@ body {
 
 .nav-menu-link {
   @apply text-base text-dark py-2 mx-8 flex group-hover:text-primary;
+}
+
+/* Form label */
+.label-form {
+  @apply font-semibold text-base text-primary;
+}
+
+.input-form {
+  @apply w-full bg-slate-200 rounded-md text-dark p-3 focus:outline-primary;
 }
